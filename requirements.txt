@@ -1,0 +1,5 @@
+python-telegram-bot
+telegram
+opencv-python
+tensorflow-gpu
+scipy
