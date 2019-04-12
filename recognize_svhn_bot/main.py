@@ -48,7 +48,7 @@ def photo_handler(bot, update):
     images_to_recognize.put(file_path)
     predicted = recognized_images.get()
 
-    bot.send_message(chat_id=update.message.chat_id, text=str(*predicted))
+    bot.send_message(chat_id=update.message.chat_id, text=''.join(map(str, predicted)))
 
 
 def error(bot, update):
