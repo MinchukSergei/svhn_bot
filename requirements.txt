@@ -3,3 +3,4 @@ telegram
 opencv-python
 tensorflow-gpu
 scipy
+tqdm
