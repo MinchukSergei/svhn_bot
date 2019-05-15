@@ -4,3 +4,4 @@ opencv-python
 tensorflow-gpu
 scipy
 tqdm
+matplotlib
